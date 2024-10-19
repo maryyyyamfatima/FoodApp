@@ -6,7 +6,7 @@ export const useProducts = () => {
   const [refreshing, setRefreshing] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  // Fetch data from the API
+  // Fetch data from the APIIII
   const fetchData = async () => {
     setLoading(true);
     try {

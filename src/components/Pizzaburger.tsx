@@ -63,7 +63,7 @@ export default function PizzaBurger({ myProps }: any) {
       updatedProducts.push(newProduct);
       await AsyncStorage.setItem('products', JSON.stringify(updatedProducts));
 
-      Alert.alert('Success', 'Product added successfully!');
+      Alert.alert('Success wohoooooooooooo', 'Product added successfully!');
       setTitle('');
       setPrice('');
       setImage('');
@@ -98,7 +98,7 @@ export default function PizzaBurger({ myProps }: any) {
               columnWrapperStyle={{ gap: 10 }}
             />
 
-            <Text style={styles.header}>Add New Product</Text>
+            <Text style={styles.header}>Add New Product:</Text>
             <TextInput
               style={styles.input}
               placeholder="Title"
